@@ -1,8 +1,19 @@
 <template>
   <div class="home">
+    <nav class="navbar navbar-light fixed-top bg-light">
+       <a class="navbar-brand" href="#">
+           <img src="../assets/dexter.png" width="50" height="50" alt="Dexter">Dexter Dojo
+       </a>
+       <form class="form-inline">
+         <div class="inset">
+           <img src="http://rs775.pbsrc.com/albums/yy35/PhoenyxStar/link-1.jpg~c200">
+         </div>
+      <button class="btn btn-1 btn-white" type="submit">Signup</button>
+    </form>
+   </nav>
     <div class="container">
       <div class="row">
-        <div class="col-sm-4" style="margin-top:30px;">
+        <div class="col-sm-4" style="margin-top:150px;">
     <div class="card card1 hvr-grow-shadow">
       <div class="card-body">
       <!-- <div class="user-buttons d-flex justify-content-end">
@@ -34,17 +45,17 @@
 <button class="btn btn3"><i class="fa fa-newspaper-o"></i></button>
 <span class="badge badge-notify">1</span> -->
 <a href="#" class="alarm-badge float-right px-3" data-badge="12" >
-  <button class="btn btn1">
+  <button class="btn button1">
     <i class="fa fa-comment"></i>
   </button>
 </a>
 <a href="#" class="alarm-badge float-right px-3" data-badge="25" >
-  <button class="btn btn2">
+  <button class="btn button2">
     <i class="fa fa-heart"></i>
   </button>
 </a>
 <a href="#" class="alarm-badge float-right px-3" data-badge="51" >
-  <button class="btn btn3">
+  <button class="btn button3">
     <i class="fa fa-newspaper-o"></i>
   </button>
 </a>
@@ -61,7 +72,7 @@
                     </span> -->
 </div>
 </div>
-<div class="col-md-6" style="margin-top:30px;">
+<div class="col-md-6" style="margin-top:150px;">
 <div class="card card1 hvr-grow-shadow float-left px-2 text-center">
   <div class="card-body text-center">
     <a href="#" class="float text-center">
@@ -83,6 +94,45 @@ export default{
 </script>
 
 <style>
+body{
+  background-color:	#F0EFEC;
+}
+.nav {
+  height:70px;
+  width: 100%;
+  background-color:#ffffff;
+  position: relative;
+}
+.inset {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  box-shadow:
+    inset 0 0 0 2px rgba(255,255,255,0.6),
+    0 1px 1px rgba(0,0,0,0.1);
+  background-color: transparent !important;
+  z-index: 999;
+}
+
+.inset img {
+  border-radius: inherit;
+  width: inherit;
+  height: inherit;
+  display: block;
+  position: relative;
+  z-index: 998;
+}
+.btn{
+  fill: #fff;
+  background: #fff;
+}
+.btn-1{
+        border-radius:20px;
+        box-shadow: 2px 2px;
+        font-size: 18px;
+        color: #000;
+        margin: auto;
+}
 .hvr-grow-shadow {
   display: inline-block;
   vertical-align: middle;
@@ -121,18 +171,18 @@ export default{
   border-radius:50%;
   padding: 3px 5px;
 }
-.btn1{
+.button1{
   position:224px 247px;
   border-radius:60%;
   background-color:#3DC0F9;
   margin-top:-15px;
 }
-.btn2 {
+.button2 {
   border-radius:60%;
   background-color:#ff69b4;
     margin-top:-15px;
 }
-.btn3{
+.button3{
   border-radius:60%;
   background-color:#FFFF66 ;
   margin-top:-15px;

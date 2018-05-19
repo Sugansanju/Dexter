@@ -76,7 +76,7 @@ body{
   border-radius: 25px;
   background-color: #eee;
 }
-.btn{
+.button{
   fill: #fff;
   background: #fff;
 }
