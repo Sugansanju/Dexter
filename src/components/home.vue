@@ -6,9 +6,17 @@
        </a>
        <form class="form-inline">
          <div class="inset">
-           <img src="http://rs775.pbsrc.com/albums/yy35/PhoenyxStar/link-1.jpg~c200">
+           <img src="../assets/profile.png">
          </div>
-      <button class="btn btn-1 btn-white" type="submit">Signup</button>
+         <div class="dropdown px-3">
+     <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    User Name
+     </button>
+     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+       <a class="dropdown-item" href="#">Setting</a>
+       <a class="dropdown-item" href="#">Logout</a>
+     </div>
+   </div>
     </form>
    </nav>
     <div class="container">
