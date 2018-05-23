@@ -1,16 +1,21 @@
 <template>
   <div class="home">
-    <nav class="navbar navbar-light fixed-top bg-light">
-       <a class="navbar-brand" href="#">
-           <img src="../assets/dexter.png" width="50" height="50" alt="Dexter">Dexter Dojo
-       </a>
-       <form class="form-inline">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <a class="navbar-brand" href="#">
+         <img src="../assets/dexter.png" width="50" height="50" alt="Dexter">Dexter Dojo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+        </ul>
+        <form class="form-inline">
          <div class="inset">
            <img src="../assets/profile.png">
          </div>
          <div class="dropdown px-3">
-     <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    User Name
+     <button class="btn clr dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+  suganya
      </button>
      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
        <a class="dropdown-item" href="#">Setting</a>
@@ -18,10 +23,11 @@
      </div>
    </div>
     </form>
-   </nav>
+      </div>
+    </nav>
     <div class="container">
-      <div class="row">
-        <div class="col-sm-4" style="margin-top:150px;">
+      <div class="row"style="margin-top:100px;">
+        <div class="col-sm-4" >
     <div class="card card1 hvr-grow-shadow">
       <div class="card-body">
       <!-- <div class="user-buttons d-flex justify-content-end">
@@ -80,14 +86,11 @@
                     </span> -->
 </div>
 </div>
-<div class="col-md-6" style="margin-top:150px;">
+<div class="col-md-6" >
 <div class="card card1 hvr-grow-shadow float-left px-2 text-center">
   <div class="card-body text-center">
-    <a href="#" class="float text-center">
-    <i class="fa fa-plus icon-float"></i>
+    <button class="btn btn-5"><i class="fa fa-plus"></i></button>
     </a>
-</div>
-</div>
 </div>
 </div>
 </div>
@@ -111,35 +114,37 @@ body{
   background-color:#ffffff;
   position: relative;
 }
-.inset {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  box-shadow:
-    inset 0 0 0 2px rgba(255,255,255,0.6),
-    0 1px 1px rgba(0,0,0,0.1);
-  background-color: transparent !important;
-  z-index: 999;
+.clr{
+  background-color: #f8f9fa;
 }
-
 .inset img {
-  border-radius: inherit;
-  width: inherit;
-  height: inherit;
-  display: block;
-  position: relative;
-  z-index: 998;
+    -webkit-background-size: 32px 32px;
+    background-size: 32px 32px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+    margin: -1px;
+    overflow: hidden;
+    position: relative;
+    height: 32px;
+    width: 32px;
+    z-index: 0;
 }
-.btn{
-  fill: #fff;
-  background: #fff;
-}
-.btn-1{
+.btn-4{
         border-radius:20px;
         box-shadow: 2px 2px;
         font-size: 18px;
         color: #000;
         margin: auto;
+}
+.btn-5 {
+    background-color: DodgerBlue;
+    border-radius:50px;
+    color: white;
+    margin-top:29px;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
 }
 .hvr-grow-shadow {
   display: inline-block;

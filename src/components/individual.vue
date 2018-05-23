@@ -15,7 +15,7 @@
          </div>
          <div class="dropdown px-3">
      <button class="btn clr dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    User Name
+  suganya
      </button>
      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
        <a class="dropdown-item" href="#">Setting</a>
@@ -36,15 +36,18 @@
           <div class="Pro-avatar">
       <div class="ProAvatar">
     <a class="ProAvatar-container" href="" data-resolved-url-large="" data-url="" target="_blank" rel="noopener" data-original-title="">
-        <img class="ProAvatar-image" src="../assets/profile.png" alt="">
+        <img class="ProAvatar-image" src="../assets/boy.png" alt="">
     </a>
 </div>
     </div>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse justify-content-center" id="navbarContent">
+  <div class="collapse nav-bar brackets  navbar-collapse justify-content-center" id="navbarContent">
     <ul class="navbar-nav">
+      <li class="nav-item px-2 ">
+        <a class="nav-link " href="#">Stories</a>
+      </li>
       <li class="nav-item px-2">
         <a class="nav-link" href="#">Batches</a>
       </li>
@@ -56,15 +59,52 @@
         <li class="nav-item px-2">
           <a class="nav-link" href="#">Events</a>
         </li>
-      <li class="nav-item px-2">
-        <a class="nav-link" href="#">Stories</a>
-      </li>
     </ul>
   </div>
 </nav>
     </div>
     <div class="container">
-  <div class="row">
+          <div class="row">
+            <div class="col-sm-4" style="margin-top:150px;">
+        <div class="card card1 hvr-grow-shadow">
+          <div class="card-body">
+            <div class="row">
+              <div style="margin-top:5px;">
+            <img src="../assets/university.png" width="80" height="80 " alt="university">
+    </div>
+    <div>
+        <h4 class="text-center" style="color:teal;">Anna University</h4>
+          	<div class="float-left px-2 text-center" style="font-size:20px;color:red;">
+          		123<br>Staff
+            </div>
+            <div class="float-left px-2 text-center"  style="font-size:20px;color:blue;">
+            200<br>Student
+          </div>
+          <div class="float-left px-2 text-center"  style="font-size:20px;color:green;">
+          58<br>Parent
+       </div>
+    </div>
+    </div>
+    </div>
+    <div>
+    <a href="#" class="alarm-badge float-right px-3" data-badge="12" >
+      <button class="btn button1">
+        <i class="fa fa-comment"></i>
+      </button>
+    </a>
+    <a href="#" class="alarm-badge float-right px-3" data-badge="25" >
+      <button class="btn button2">
+        <i class="fa fa-heart"></i>
+      </button>
+    </a>
+    <a href="#" class="alarm-badge float-right px-3" data-badge="51" >
+      <button class="btn button3">
+        <i class="fa fa-newspaper-o"></i>
+      </button>
+    </a>
+    </div>
+    </div>
+    </div>
     <div class="col-sm-4" style="margin-top:150px;">
 <div class="card card1 hvr-grow-shadow">
   <div class="card-body">
@@ -105,10 +145,6 @@
 </div>
 </div>
 </div>
-</div>
-</div>
-<div class="container">
-<div class="row">
 <div class="col-sm-4" style="margin-top:150px;">
 <div class="card card1 hvr-grow-shadow">
 <div class="card-body">
@@ -149,10 +185,6 @@
 </div>
 </div>
 </div>
-</div>
-</div>
-<div class="container">
-<div class="row">
 <div class="col-sm-4" style="margin-top:150px;">
 <div class="card card1 hvr-grow-shadow">
 <div class="card-body">
@@ -193,96 +225,10 @@
 </div>
 </div>
 </div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-sm-4" style="margin-top:150px;">
-<div class="card card1 hvr-grow-shadow">
-<div class="card-body">
-<div class="row">
-  <div style="margin-top:5px;">
-<img src="../assets/university.png" width="80" height="80 " alt="university">
-</div>
-<div>
-<h4 class="text-center" style="color:teal;">Anna University</h4>
-<div class="float-left px-2 text-center" style="font-size:20px;color:red;">
-  123<br>Staff
-</div>
-<div class="float-left px-2 text-center"  style="font-size:20px;color:blue;">
-200<br>Student
-</div>
-<div class="float-left px-2 text-center"  style="font-size:20px;color:green;">
-58<br>Parent
-</div>
-</div>
-</div>
-</div>
-<div>
-<a href="#" class="alarm-badge float-right px-3" data-badge="12" >
-<button class="btn button1">
-<i class="fa fa-comment"></i>
-</button>
-</a>
-<a href="#" class="alarm-badge float-right px-3" data-badge="25" >
-<button class="btn button2">
-<i class="fa fa-heart"></i>
-</button>
-</a>
-<a href="#" class="alarm-badge float-right px-3" data-badge="51" >
-<button class="btn button3">
-<i class="fa fa-newspaper-o"></i>
-</button>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="container">
-<div class="row">
-<div class="col-sm-4" style="margin-top:150px;">
-<div class="card card1 hvr-grow-shadow">
-<div class="card-body">
-<div class="row">
-  <div style="margin-top:5px;">
-<img src="../assets/university.png" width="80" height="80 " alt="university">
-</div>
-<div>
-<h4 class="text-center" style="color:teal;">Anna University</h4>
-<div class="float-left px-2 text-center" style="font-size:20px;color:red;">
-  123<br>Staff
-</div>
-<div class="float-left px-2 text-center"  style="font-size:20px;color:blue;">
-200<br>Student
-</div>
-<div class="float-left px-2 text-center"  style="font-size:20px;color:green;">
-58<br>Parent
-</div>
-</div>
-</div>
-</div>
-<div>
-<a href="#" class="alarm-badge float-right px-3" data-badge="12" >
-<button class="btn button1">
-<i class="fa fa-comment"></i>
-</button>
-</a>
-<a href="#" class="alarm-badge float-right px-3" data-badge="25" >
-<button class="btn button2">
-<i class="fa fa-heart"></i>
-</button>
-</a>
-<a href="#" class="alarm-badge float-right px-3" data-badge="51" >
-<button class="btn button3">
-<i class="fa fa-newspaper-o"></i>
-</button>
-</a>
-</div>
-</div>
-</div>
-</div>
-</div>
+    </div>
+    </div>
+    </div>
+    </div>
   </div>
 </template>
 <script>
@@ -316,6 +262,47 @@ export default {
     width: 32px;
     z-index: 0;
 }
+div.brackets a:before, div.brackets a:after
+{
+    position: absolute;
+    opacity: 0;
+    font-size: 35px;
+    top: 0px;
+    color:#b5a0ce;
+    transition: all 0.3s;
+}
+
+div.brackets a:before
+{
+    content: '(';
+    left: 0px;
+    transform: translateX(10px);
+}
+
+div.brackets a:after
+{
+    content: ')';
+    right: 0px;
+    transform: translateX(-10px);
+}
+
+div.brackets a:hover:before, div.brackets a:hover:after
+{
+    opacity: 1;
+    transform: translateX(0px);
+}
+div.nav-bar a
+{
+    color: #FFF;
+    text-decoration: none;
+    font: 20px Raleway;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+}
+
 .Pro-avatar {
     bottom: -28px;
     left: 200px;
@@ -326,10 +313,10 @@ export default {
   .ProAvatar {
     background: #fff;
     border: 5px solid #fff;
-    border-radius: 50%;
-    height:150px;
+    border-radius: 25%;
+    height:165px;
     position: relative;
-    width: 150px;
+    width:165px;
 }
 .ProAvatar-container {
     outline: 0;
@@ -341,15 +328,12 @@ export default {
 
 .ProAvatar-image, .ProAvatar-placeholderImage {
     -moz-force-broken-image-icon: 1;
-    border-radius: 50%;
+    border-radius: 25%;
     height: 100%;
     left: 0;
     position: absolute;
     top: 0;
     width: 100%;
-}
-img {
-    border: 0;
 }
 .hvr-grow-shadow {
   display: inline-block;
